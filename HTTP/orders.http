@@ -1,0 +1,33 @@
+### GET orders 
+GET http://localhost:8000/orders
+
+### POST orders 
+POST http://localhost:8000/orders
+
+Content-Type: "application/json"
+
+{
+    "first_name": "Micha11231233el",
+    "last_name": "asdsadsad",
+    "age": 23,
+}
+
+
+### PUT orders 
+PUT http://localhost:8000/orders/2
+
+Content-Type: "application/json"
+
+{
+    "name": "Michael",
+    "email": "michael@michael.com",
+    "age": 23,
+    "password": "1234567"
+}
+
+
+### DELETE orders 
+DELETE http://localhost:8000/orders/2
+
+
+
